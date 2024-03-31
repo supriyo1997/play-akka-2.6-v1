@@ -1,0 +1,2 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\DELL\Desktop\AKKA\play-akka-2.6-v1\app\models\Employee.java:13:1: Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.[0m
+[0m[[0m[33mwarn[0m] [0m[0m@Data[0m

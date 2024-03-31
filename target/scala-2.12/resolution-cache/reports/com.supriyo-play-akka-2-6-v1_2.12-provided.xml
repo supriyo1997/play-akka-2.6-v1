@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.supriyo"
+		module="play-akka-2-6-v1_2.12"
+		revision="1.0-SNAPSHOT"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
+		date="20240325122606"/>
+	<dependencies>
+		<module organisation="org.projectlombok" name="lombok">
+			<revision name="1.18.20" status="release" pubdate="20210402045614" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projectlombok.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="The MIT License" url="https://projectlombok.org/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2601" time="0" location="C:\Users\DELL\.ivy2\cache\org.projectlombok\lombok\ivy-1.18.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.pom"/>
+				<caller organisation="com.supriyo" name="play-akka-2-6-v1_2.12" conf="provided" rev="1.18.20" rev-constraint-default="1.18.20" rev-constraint-dynamic="1.18.20" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lombok" type="jar" ext="jar" status="no" details="" size="1931717" time="0" location="C:\Users\DELL\.ivy2\cache\org.projectlombok\lombok\jars\lombok-1.18.20.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
